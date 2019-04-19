@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="favicon/png" href="./assets/images/favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -32,6 +35,14 @@
       <div class="row">
         <div class="col-sm-12">
           <h1 class="name">Brad Hoffman</h1>
+          <span class="socialIcons">
+            <a href="https://github.com/bkhoffman" target="_blank">
+              <i class="fab fa-github-square fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bkhoffman" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </span> 
         </div>
       </div>
     </div>
@@ -177,7 +188,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-sm-12">
-              <div class="card d-flex flex-wrap justify-content-center" style="width: 18rem; text-align: center">
+              <div class="card d-flex flex-wrap justify-content-center" style="width: auto; text-align: center">
                 <a href="https://docs.google.com/document/d/1bzk3PSjL7Euj_xRStIPVsKPOq8pyIiVcUaoGHcQ56Fk/edit?usp=sharing"
                   target="_blank">
                   <img src="./assets/images/Resume.png" class="card-img-top" alt="Resume">
@@ -206,20 +217,21 @@
             <div class="col-sm-12">
               <div class="card d-flex flex-wrap" style="width: auto;">
                 <form class="contactForm">
-                    <div class="form-group">
-                      <label for="nameInput">Name:</label>
-                      <input type="name" class="form-control" id="nameInput" placeholder="John Doe">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlInput1">Email:</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Message:</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                  <div class="form-group">
+                    <label for="nameInput">Name:</label>
+                    <input type="name" class="form-control" id="nameInput" placeholder="John Doe">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
               </div>
             </div>
           </div>
