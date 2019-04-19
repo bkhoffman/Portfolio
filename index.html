@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="favicon/png" href="./assets/images/favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+  <!--validation lib-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.js"></script>
+  <!--validation lib-->
+  <title>The Portfolio of Brad Hoffman</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="name">Brad Hoffman</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col sm 3">
+        <button class="card bg-dark text-white" data-toggle="modal" data-target="#aboutModal">
+          <img src="./assets/images/aboutImg.png" class="card-img" alt="About Me Card Img">
+          <div class="card-img-overlay">
+            <h5 class="card-title"></h5>
+          </div>
+        </button>
+      </div>
+      <div class="col sm 3">
+        <button class="card bg-dark text-white" data-toggle="modal" data-target="#portModal">
+          <img src="./assets/images/portfolioImg.png" class="card-img" alt="Portfolio Card Img">
+          <div class="card-img-overlay">
+            <h5 class="card-title"></h5>
+          </div>
+        </button>
+      </div>
+      <div class="col sm 3">
+        <button class="card bg-dark text-white" data-toggle="modal" data-target="#resumeModal">
+          <img src="./assets/images/resumeImg.png" class="card-img" alt="Resume Card Img">
+          <div class="card-img-overlay">
+            <h5 class="card-title"></h5>
+          </div>
+        </button>
+      </div>
+      <div class="col sm 3">
+        <button class="card bg-dark text-white" data-toggle="modal" data-target="#contactModal">
+          <img src="./assets/images/contactImg.png" class="card-img" alt="Contact Me Card Img">
+          <div class="card-img-overlay">
+            <h5 class="card-title"></h5>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" tabindex="-1" role="dialog" id="aboutModal">
+    <div class="modal-dialog modal-flex modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">About</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-12">
+              <img id="about-image" src="./assets/images/avatar.png" alt="About Me Picture">
+              <p>Full Stack Web Developer with experience in digital marketing and e-commerce. With a Business
+                degree from KU, I started and successfully run a promotional products business for 13 years, creating a
+                strong
+                background in all aspects of business including: operations, graphic design, accounting, marketing, and
+                social
+                media. Working with many types of people has taught me to be adaptable to different personalities,
+                making
+                collaboration to develop web applications smoother and more efficient. Developing skills include: HTML,
+                CSS,
+                Bootstrap, Javascript, jQuery, Firebase as well as working with APIs. Passionate about conquering new
+                challenges and learning new skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" tabindex="-1" role="dialog" id="portModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Portfolio</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card d-flex flex-wrap justify-content-center" style="width: 18rem; text-align: center">
+                <a href="https://bkhoffman.github.io/Complement/" target="_blank">
+                  <img src="./assets/images/Complement.png" class="card-img-top" alt="Complement App Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Complement</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Food and Beer Pairing App</h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card d-flex flex-wrap justify-content-center" style="width: 18rem; text-align: center">
+                <a href="https://bkhoffman.github.io/Movie-Trivia-Game/" target="_blank">
+                  <img src="./assets/images/TriviaGame.png" class="card-img-top" alt="Movie Trivia Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Movie Trivia</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Timed Movie Trivia Game</h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card d-flex flex-wrap justify-content-center" style="width: 18rem; text-align: center">
+                <a href="https://bkhoffman.github.io/Train-Time/" target="_blank">
+                  <img src="./assets/images/TrainTime.png" class="card-img-top" alt="Train Time App Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Train Time</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Train Timing App</h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card d-flex flex-wrap justify-content-center" style="width: 18rem; text-align: center">
+                <a href="https://bkhoffman.github.io/Word-Guess-Game/" target="_blank">
+                  <img src="./assets/images/MovieHangman.png" class="card-img-top" alt="Movie Hangman Image">
+                  <div class="card-body">
+                    <h5 class="card-title">Movie Hangman</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Word Guess Game</h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" tabindex="-1" role="dialog" id="resumeModal">
+    <div class="modal-dialog modal-flex modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Resume</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card d-flex flex-wrap justify-content-center" style="width: 18rem; text-align: center">
+                <a href="https://docs.google.com/document/d/1bzk3PSjL7Euj_xRStIPVsKPOq8pyIiVcUaoGHcQ56Fk/edit?usp=sharing"
+                  target="_blank">
+                  <img src="./assets/images/Resume.png" class="card-img-top" alt="Resume">
+                  <div class="card-body">
+                    <h5 class="card-title">Resume</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
+    <div class="modal-dialog modal-flex modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Contact Me</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card d-flex flex-wrap" style="width: auto;">
+                <form class="contactForm">
+                    <div class="form-group">
+                      <label for="nameInput">Name:</label>
+                      <input type="name" class="form-control" id="nameInput" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email:</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message:</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./assets/javascript/portfolio.js"></script>
+</body>
+
+</html>
