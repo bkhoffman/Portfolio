@@ -8,7 +8,12 @@ body.modal-open .container-fluid{
   -ms-filter: blur(5px);
   filter: blur(5px);  
 }
+a{
+  color: white;
+}
 .jumbotron{
+  text-align: center;
+  padding: 1rem 2rem;
   background-color: #202225;
 }
 .name{
@@ -17,8 +22,8 @@ body.modal-open .container-fluid{
   /* font: 6vw 'Bershire Swash', Helvetica, sans-serif; */
   color: white;
   /* text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15); */
-  text-align: left;
-  float: left;
+  /* text-align: left;
+  float: left; */
 }
 #about-image, #port-image{
   margin-right: 2%;
@@ -33,8 +38,28 @@ body.modal-open .container-fluid{
 .contactForm{
   padding: 1%;
 }
-.socialIcons{
+/* .socialIcons{
   color: white;
   size: 4vw;
   float: right;
+} */
+
+/* .btn {
+  background-color: #99CC99;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: #99CC33;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+  box-shadow:none;
+} */
+.card{
+  padding: 0px;
 }
