@@ -61,7 +61,9 @@ a{
   .card-img-sm{
     display: block;
     margin: 0;
-    align-content: center;
   }
-  
+  #btn{
+    margin: auto;
+    margin-bottom: 2%; 
+  }
 } 
